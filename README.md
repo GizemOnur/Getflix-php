@@ -29,10 +29,14 @@ To make the working road more easy , We came with idea to use mind map to make t
 For better responsive website and work faster we used (BOOTSTRAP5)
 , the main goal is to make the website responsive and easy to navigate in most simple way and the most comfortable for the eyes. 
 
-To display the API properly, we used the cards (shadowcard) from BOOTSRAP5.
-
 ![INCASE](https://media.giphy.com/media/YFkpsHWCsNUUo/giphy.gif)
  
+
+To display the API properly, we used the cards (shadowcard) from BOOTSRAP5.
+
+![CARDS](cards.png)
+
+
 -----
 # ⚙️ Back-End 
 
