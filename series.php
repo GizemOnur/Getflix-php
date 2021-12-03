@@ -62,7 +62,7 @@ if(!isset($_SESSION['LOGGED_USER'])){
                 $video_key = $videoArray[0]->key;
             ?>
             <!-- On crée les cards de chaque film -->
-                <div class="col-md-3">
+                <div class="col-md-3" id="container-cards">
                     <div class="card shadowcard">
                         <img class="card-img-top" src="<?php print($urlPoster) ?>">
                         <div class="card-body scroll-box">
