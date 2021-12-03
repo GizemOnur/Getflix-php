@@ -62,14 +62,15 @@ if(!isset($_SESSION['LOGGED_USER'])){
                 $video_key = $videoArray[0]->key;
             ?>
             <!-- On crée les cards de chaque film -->
-                <div class="col-md-3">
+                <div class="col-md-3" id="cards">
                     <div class="card shadowcard">
                         <img class="card-img-top" src="<?php print($urlPoster) ?>">
-                        <div class="card-body scroll-box">
+                        <div class="card-body scroll-box" style="height: 200px;">
                             <h4 class="card-title-1"><?php print($title) ?></h4>
                             <p class="card-text-1"><?php print($overview) ?></p>
                         </div>
-                        <span class="card-text-1"><a href="movie.php?key=<?php echo $video_key ?>&amp;title=<?php echo $title ?>" class="btn btn-primary">Watch</a></span>
+                        <span class="card-text-1"><a href="movie.php?key=<?php echo $video_key ?>&amp;title=<?php echo $title ?>" class="btn btn-dark btn-lg" style=" display: flex;
+    justify-content: center;">Watch</a></span>
                     </div>
                 </div>
 
