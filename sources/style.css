@@ -185,12 +185,13 @@ font-size: 15px;
 }
 
 
-/*NEEEW*/
+/*NEEEW - ajustement des cards */
 
 #cards {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
-#cards-series{
-    margin-top: 10px;
+
+.col-md-3 {
+    margin-top: 15px;
 }

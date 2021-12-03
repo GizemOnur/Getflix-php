@@ -34,7 +34,7 @@ if(!isset($_SESSION['LOGGED_USER'])){
     <?php include_once('sources/header.php'); ?>
 
     <!--Cards-->
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" id="cards">
         <div class="row padding">
 
             <?php
@@ -62,8 +62,8 @@ if(!isset($_SESSION['LOGGED_USER'])){
                 $video_key = $videoArray[0]->key;
             ?>
             <!-- On crée les cards de chaque film -->
-                <div class="col-md-3" id="cards-series">
-                    <div class="card shadowcard"id="cards" >
+                <div class="col-md-3">
+                    <div class="card shadowcard">
                         <img class="card-img-top" src="<?php print($urlPoster) ?>">
                         <div class="card-body scroll-box" style="height: 200px;">
                         <h4 class="card-title-1"><?php print($title) ?></h4>
