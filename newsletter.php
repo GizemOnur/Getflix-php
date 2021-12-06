@@ -1,3 +1,6 @@
+
+
+
 <?php
 
 session_start();
@@ -9,6 +12,7 @@ if(!isset($_SESSION['LOGGED_USER'])){
 } else {
 ?>
 
+    
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,9 +40,6 @@ if(!isset($_SESSION['LOGGED_USER'])){
 
 
 <!--Container-->
-<div class='title1'>
-<h1 class="newstitle text-center">  GETFLIX NEWSLETTER </h1>
-</div>
 
 <div class="container-fluid" id="imgnews">
 
@@ -53,7 +54,7 @@ if(!isset($_SESSION['LOGGED_USER'])){
     unset($_SESSION['msg']);
     echo $statusMsg;
 ?>
-        <!---Mailchimp FORM-->
+    <!---Mailchimp FORM-->
         <div class="md-5 text-center w-25" style="display:inline-block" id="form">
         <form  style="max-widht: 50px; margin:auto;"method="post" action="action.php" class="white">
         <h2 class="h3 font-weight-normal"> SUBSCRIBE TO OUR NEWSLETTER </h2>
