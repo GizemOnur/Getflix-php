@@ -36,7 +36,7 @@ $title = $_GET['title'];
     <div class="col-md-6">
       <h4 class="card-title-1 paddingTop"><?php echo $title ?></h4>
       <hr style="color:white;">
-      <div class="container ">
+      <div class="container>
         <div><?php echo '<iframe class="responsive-iframe" src="https://www.youtube.com/embed/' . $videoKey . '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'; ?></div>
           </div>
           <div class="card shadowcard" id="movie">
