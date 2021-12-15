@@ -2,7 +2,7 @@
 
 ## 👋 Welcome to our Movies & Series Paradise 👾 
 
-[Lien vers le site] (https://liege-cite-ardente.be/) 
+[Lien vers le site](https://liege-cite-ardente.be/) 
 
 ____
 ## 👩‍💻 🧑‍💻 OUR TEAM 
