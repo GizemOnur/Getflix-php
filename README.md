@@ -2,7 +2,7 @@
 
 ## 👋 Welcome to our Movies & Series Paradise 👾 
 
-[GETFLIX WEBSITE](https://liege-cite-ardente.be/) 
+[GETFLIX WEBSITE](https://getflix-php.herokuapp.com/) 
 
 ____
 ## 👩‍💻 🧑‍💻 OUR TEAM 
